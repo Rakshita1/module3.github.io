@@ -1,0 +1,41 @@
+body{
+	all:none;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.navbar-brand{
+	font-weight: bold;
+	font-size: 30px;
+}
+.navbg{
+	border: 1px solid black;
+	background:#AEB6BF ;
+}
+h1{
+	text-align: center;
+	padding: 20px;
+}
+.content{
+	background:#AEB6BF 	;
+	padding: 5px;
+	margin: 2%;
+}
+.dropdown-item{
+	text-align-last: center;
+}
+h5{
+	text-align: center;
+	padding-bottom: 10px;
+}
+@media(min-width: 580px){
+	.dropdown{
+		display: none;
+	}
+
+}
+
+@media(max-width: 579px){
+
+	.content{
+		margin: 10%;
+	}
+}
